@@ -12,7 +12,7 @@ export default function Footer() {
 
     return (
         <StyledFooter>
-            All Rights Reserved © Seth Culberson 2025
+            All Rights Reserved by Seth Culberson Credits ©
         </StyledFooter>
     )
 }

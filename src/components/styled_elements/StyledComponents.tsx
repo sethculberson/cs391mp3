@@ -70,6 +70,7 @@ export const StyledMain = styled.main`
     padding: calc(15px + 1vw);
     max-width: 70vw;
     width: 70vw;
+    max-height: 100vh;
     @media (max-width: 750px) {
         width: 100vw;
         max-width: 100vw;

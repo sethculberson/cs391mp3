@@ -1,5 +1,5 @@
 import { StyledMain, StyledUl, StyledTitle, StyledImg, StyledP } from "../styled_elements/StyledComponents";
-import philanthropy from '../../images/philanthropy.jpeg';
+import sigmachi from '../../images/sigmachi.jpeg';
 
 export default function Leadership(){
     return (
@@ -17,7 +17,6 @@ export default function Leadership(){
                             <StyledP>Marketing Chairman</StyledP>
                         </li>
                     </StyledUl>
-                    <StyledImg src={philanthropy} alt="philanthropy"/>
                 </li>
                 <li>
                     <h3>Kappa Theta Pi Professional Fraternity</h3>
@@ -31,6 +30,7 @@ export default function Leadership(){
                     </StyledUl>
                 </li>
             </StyledUl>
+            <StyledImg src={sigmachi} alt="sigmachi"/>
         </StyledMain>
     )
 }

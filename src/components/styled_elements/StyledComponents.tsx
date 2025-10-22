@@ -71,12 +71,11 @@ export const StyledMain = styled.main`
     max-width: 70vw;
     width: 70vw;
     max-height: 100vh;
+    height: 100vh;
     @media (max-width: 750px) {
         width: 100vw;
         max-width: 100vw;
         padding: (2px + 0.4vw);
-        max-height: 100vh;
-        height: 100vh;
     }
 `;
 
@@ -107,15 +106,12 @@ export const StyledP = styled.p`
 
 export const StyledImg = styled.img`
     display: inline;
-    max-height: 35vw;
-    max-width: 50vh;
+    max-height: 30%;
     border-radius: 30px;
     margin: calc(12px + 0.2vw);
-
     @media (max-width: 750px) {
-        margin: calc(12px + 0.2vw) auto;
-        text-align: center;
         display: block;
+        margin: calc(12px + 0.2vw) auto;
     }
 `;
 
